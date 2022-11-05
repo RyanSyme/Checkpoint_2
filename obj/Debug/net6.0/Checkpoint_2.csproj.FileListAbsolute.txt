@@ -1,0 +1,15 @@
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\bin\Debug\net6.0\Checkpoint_2.exe
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\bin\Debug\net6.0\Checkpoint_2.deps.json
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\bin\Debug\net6.0\Checkpoint_2.runtimeconfig.json
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\bin\Debug\net6.0\Checkpoint_2.dll
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\bin\Debug\net6.0\Checkpoint_2.pdb
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\obj\Debug\net6.0\Checkpoint_2.csproj.AssemblyReference.cache
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\obj\Debug\net6.0\Checkpoint_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\obj\Debug\net6.0\Checkpoint_2.AssemblyInfoInputs.cache
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\obj\Debug\net6.0\Checkpoint_2.AssemblyInfo.cs
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\obj\Debug\net6.0\Checkpoint_2.csproj.CoreCompileInputs.cache
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\obj\Debug\net6.0\Checkpoint_2.dll
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\obj\Debug\net6.0\refint\Checkpoint_2.dll
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\obj\Debug\net6.0\Checkpoint_2.pdb
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\obj\Debug\net6.0\Checkpoint_2.genruntimeconfig.cache
+C:\Users\Roosticles IV\3D Objects\Lexicon\checkpoint_2\obj\Debug\net6.0\ref\Checkpoint_2.dll
