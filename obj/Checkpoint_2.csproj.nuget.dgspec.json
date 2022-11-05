@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Roosticles IV\\3D Objects\\Lexicon\\checkpoint_2\\Checkpoint_2.csproj": {}
+    "C:\\Users\\Roosticles IV\\3D Objects\\Lexicon\\Checkpoint_2\\Checkpoint_2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Roosticles IV\\3D Objects\\Lexicon\\checkpoint_2\\Checkpoint_2.csproj": {
+    "C:\\Users\\Roosticles IV\\3D Objects\\Lexicon\\Checkpoint_2\\Checkpoint_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Roosticles IV\\3D Objects\\Lexicon\\checkpoint_2\\Checkpoint_2.csproj",
+        "projectUniqueName": "C:\\Users\\Roosticles IV\\3D Objects\\Lexicon\\Checkpoint_2\\Checkpoint_2.csproj",
         "projectName": "Checkpoint_2",
-        "projectPath": "C:\\Users\\Roosticles IV\\3D Objects\\Lexicon\\checkpoint_2\\Checkpoint_2.csproj",
+        "projectPath": "C:\\Users\\Roosticles IV\\3D Objects\\Lexicon\\Checkpoint_2\\Checkpoint_2.csproj",
         "packagesPath": "C:\\Users\\Roosticles IV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Roosticles IV\\3D Objects\\Lexicon\\checkpoint_2\\obj\\",
+        "outputPath": "C:\\Users\\Roosticles IV\\3D Objects\\Lexicon\\Checkpoint_2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Roosticles IV\\AppData\\Roaming\\NuGet\\NuGet.Config",

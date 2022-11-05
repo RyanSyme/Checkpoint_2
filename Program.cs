@@ -139,10 +139,12 @@ public class FoodList
                 Console.WriteLine("No foods match your search");
             }
             else{
+                Console.WriteLine("-----------------------------------");
                 foreach (var food in matchingFoods)
                 {
                     displayFoodInfo(food);
                 }
+                Console.WriteLine("-----------------------------------");
             }
         }
     }
