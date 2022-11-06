@@ -11,6 +11,7 @@ var userInput = Console.ReadLine().ToLower().Trim();
 
 while(true)
 {
+    // Switch enabling user to either add, display, search or quit the list/table
     switch(userInput)
     {
         case "f":
@@ -27,6 +28,7 @@ while(true)
             bool isDouble = false;
             string userPrice = "";
             double price; 
+            // loop checks to make sure user is entering a number
             while(!isDouble)
             { 
                 Console.ForegroundColor = ConsoleColor.White;
@@ -44,7 +46,6 @@ while(true)
             price = double.Parse(userPrice);
             var newFood = new Food(category, name, price);
             foodList.AddFood(newFood);
-
             break;
         case "d":
             foodList.DisplayAllFoods();
@@ -58,7 +59,6 @@ while(true)
             break;
         case "q":
             return;
-            break;
         default :
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Select one of the available options");
@@ -78,6 +78,7 @@ while(true)
 
 public class Food
     {
+        // Constructor for each user entered food
         public Food(string category, string name, double price)
         {
             Category = category;
@@ -92,53 +93,49 @@ public class Food
 
 public class FoodList
     {
+        // Creates list
         public List<Food> foodList {get; set;} = new List<Food>();
         
-
+        // Displays each individual line of the list
         public void displayFoodInfo(Food food)
         {
             Console.WriteLine($"{food.Category.PadRight(15)} {food.Name.PadRight(15)} {food.Price}");
         }
 
+        // Adds each entry to the list
         public void AddFood(Food food)
         {
             foodList.Add(food);
         }
 
+        // Displays the full list entered by user
         public void DisplayAllFoods()
         {
+            // Puts list in price order
             List<Food> foodByPrice = foodList.OrderBy(item => item.Price).ToList();
             Console.WriteLine("-----------------------------------");
             foreach (var food in foodByPrice)
             {
                 displayFoodInfo(food);
             }
+            // Adds total sum to bottom of list
             double sum = foodByPrice.Sum(food => food.Price);
             Console.WriteLine("-----------------------------------");
             Console.WriteLine("Total".PadRight(32) + sum.ToString());
         }
-        public void DisplayFood(string name)
-        {
-            var foodName = foodList.FirstOrDefault(item => item.Name == name);
-            if(foodName == null)
-            {
-                Console.WriteLine("Food item not found");
-            }
-            else
-            {
-                displayFoodInfo(foodName);
-            }
-        }
-
+        // Allows searching the list by checking if the list contains a user entered string
         public void searchFoodName(string userSearch)
         {
             var matchingFoods = foodList.Where(item => item.Name.Contains(userSearch)).ToList();
+            // if statement to check if list is empty
             if(matchingFoods == null || !matchingFoods.Any())
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("No foods match your search");
             }
-            else{
+            else
+            {
+                // Displays any entry that contains the user entered string
                 Console.WriteLine("-----------------------------------");
                 foreach (var food in matchingFoods)
                 {
